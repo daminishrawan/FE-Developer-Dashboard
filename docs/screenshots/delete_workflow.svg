@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 120" width="100%" height="100%">
+  <!-- Background Row -->
+  <rect width="1000" height="120" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Row Items -->
+  <!-- Avatar -->
+  <circle cx="50" cy="60" r="22" fill="#E2E8F0"/>
+  <circle cx="50" cy="55" r="8" fill="#4B5563"/>
+  <path d="M34 74 C 34 64, 66 64, 66 74 Z" fill="#4B5563"/>
+
+  <!-- Details -->
+  <text x="85" y="52" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1E293B">Marcus Chen</text>
+  <!-- Github Icon -->
+  <path d="M185 41 a 3 3 0 0 0 -3 3 v 3" fill="#94A3B8"/>
+  <text x="85" y="70" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#64748B">Distributed systems engineer focused on...</text>
+
+  <!-- Role -->
+  <text x="360" y="63" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#334155">Backend Engineer</text>
+
+  <!-- Contact -->
+  <path d="M520 48 H532 V56 H520 Z M520 48 L526 52 L532 48" fill="none" stroke="#94A3B8" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="540" y="54" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#475569">m.chen@cloudstack.net</text>
+  <rect x="522" y="61" width="8" height="12" rx="1" fill="none" stroke="#94A3B8" stroke-width="1"/>
+  <text x="540" y="72" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#475569">+1 (555) 014-9821</text>
+
+  <!-- Status -->
+  <rect x="710" y="48" width="70" height="24" rx="12" fill="#DCFCE7"/>
+  <circle cx="722" cy="60" r="3" fill="#16A34A"/>
+  <text x="730" y="64" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#16A34A" letter-spacing="0.5">ACTIVE</text>
+
+  <!-- Date -->
+  <rect x="800" y="53" width="12" height="12" rx="2" fill="none" stroke="#94A3B8" stroke-width="1"/>
+  <text x="818" y="63" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#64748B">2026-01-15</text>
+
+  <!-- Confirm Delete Column actions -->
+  <!-- "Delete?" Label in Red -->
+  <text x="910" y="63" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#EF4444">Delete?</text>
+  
+  <!-- Confirm Button (Red) -->
+  <rect x="965" y="46" width="65" height="28" rx="6" fill="#DC2626"/>
+  <text x="977" y="64" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Confirm</text>
+
+  <!-- Cancel Button -->
+  <rect x="1038" y="46" width="60" height="28" rx="6" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="1051" y="64" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569">Cancel</text>
+</svg>

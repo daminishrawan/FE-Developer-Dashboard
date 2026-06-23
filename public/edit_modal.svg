@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 550" width="100%" height="100%">
+  <!-- Backdrop / Blurred background mockup -->
+  <rect width="1200" height="550" rx="12" fill="#E2E8F0" stroke="#CBD5E1" stroke-width="2"/>
+  
+  <!-- Semi-transparent overlay to emulate modal backdrop -->
+  <rect width="1200" height="550" rx="12" fill="#0F172A" fill-opacity="0.4"/>
+
+  <defs>
+    <!-- Shadow for modal -->
+    <filter id="modal-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Centered Modal Box (width: 520, height: 490) -->
+  <rect x="340" y="30" width="520" height="490" rx="16" fill="#FFFFFF" filter="url(#modal-shadow)"/>
+
+  <!-- Modal Header -->
+  <!-- Blue container for User Icon -->
+  <rect x="365" y="50" width="40" height="40" rx="10" fill="#EEF2FF"/>
+  <!-- User Plus Icon inside -->
+  <path d="M380 74 A 3 3 0 0 1 386 74 M383 68 A 2 2 0 1 1 383 64 A 2 2 0 1 1 383 68 M388 68 H392 M390 66 V70" stroke="#4F46E5" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <text x="420" y="66" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#0F172A">Edit Developer Profile</text>
+  <text x="420" y="82" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#64748B">Modifying ID: DEV-008</text>
+  
+  <!-- Close Button -->
+  <path d="M820 58 L828 66 M828 58 L820 66" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Horizontal rule -->
+  <line x1="365" y1="105" x2="835" y2="105" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Row 1: Full Name -->
+  <text x="365" y="128" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569" letter-spacing="0.5">FULL NAME <tspan fill="#EF4444">*</tspan></text>
+  <rect x="365" y="136" width="470" height="36" rx="8" fill="#FFFFFF" stroke="#475569" stroke-width="1.5"/>
+  <text x="380" y="159" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="500" fill="#1E293B">Damini Shrawan</text>
+
+  <!-- Row 2: Email and Mobile (Two Column) -->
+  <!-- Email -->
+  <text x="365" y="200" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569" letter-spacing="0.5">EMAIL ADDRESS <tspan fill="#EF4444">*</tspan></text>
+  <rect x="365" y="208" width="225" height="36" rx="8" fill="#FFFFFF" stroke="#475569" stroke-width="1"/>
+  <!-- Mail Icon -->
+  <path d="M375 220 H387 V228 H375 Z M375 220 L381 224 L387 220" fill="none" stroke="#94A3B8" stroke-width="1"/>
+  <text x="395" y="231" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#1E293B">damini1998shrawan29@g...</text>
+
+  <!-- Mobile -->
+  <text x="610" y="200" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569" letter-spacing="0.5">MOBILE NUMBER <tspan fill="#EF4444">*</tspan></text>
+  <rect x="610" y="208" width="225" height="36" rx="8" fill="#FFFFFF" stroke="#475569" stroke-width="1"/>
+  <!-- Phone icon -->
+  <rect x="620" y="220" width="8" height="12" rx="1" fill="none" stroke="#94A3B8" stroke-width="1"/>
+  <text x="635" y="231" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#1E293B">+918959200891</text>
+
+  <!-- Row 3: Role and Status (Two Column) -->
+  <!-- Role -->
+  <text x="365" y="270" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569" letter-spacing="0.5">USER ROLE <tspan fill="#EF4444">*</tspan></text>
+  <rect x="365" y="278" width="225" height="36" rx="8" fill="#FFFFFF" stroke="#475569" stroke-width="1"/>
+  <!-- Briefcase Icon -->
+  <rect x="375" y="290" width="12" height="10" rx="1.5" fill="none" stroke="#94A3B8" stroke-width="1"/>
+  <path d="M379 290 V288 H383 V290" fill="none" stroke="#94A3B8" stroke-width="1"/>
+  <text x="395" y="301" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#1E293B">Fullstack Developer</text>
+  <!-- caret icon -->
+  <path d="M570 293 L574 297 L578 293" fill="none" stroke="#64748B" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Status -->
+  <text x="610" y="270" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569" letter-spacing="0.5">STATUS BADGE <tspan fill="#EF4444">*</tspan></text>
+  <rect x="610" y="278" width="225" height="36" rx="8" fill="#FFFFFF" stroke="#475569" stroke-width="1"/>
+  <text x="625" y="301" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1E293B">ACTIVE</text>
+  <path d="M815 293 L819 297 L823 293" fill="none" stroke="#64748B" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Row 4: Bio -->
+  <text x="365" y="340" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569" letter-spacing="0.5">DEVELOPER BIOGRAPHY (OPTIONAL)</text>
+  <rect x="365" y="348" width="470" height="55" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="375" y="366" font-family="Inter, system-ui, sans-serif" font-size="11.5" fill="#475569">I am a software engineer specializing in building high-performance,</text>
+  <text x="375" y="382" font-family="Inter, system-ui, sans-serif" font-size="11.5" fill="#475569">scalable web applications using React, TypeScript, and the MERN</text>
+  <text x="375" y="398" font-family="Inter, system-ui, sans-serif" font-size="11.5" fill="#475569">stack. Currently driving frontend...</text>
+
+  <!-- Row 5: GitHub -->
+  <text x="365" y="425" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#475569" letter-spacing="0.5">GITHUB USERNAME (OPTIONAL)</text>
+  <rect x="365" y="433" width="470" height="36" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <!-- Github Icon -->
+  <path d="M375 449 a 3 3 0 0 0 3 3 v -1" fill="#94A3B8"/>
+  <text x="395" y="456" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#1E293B">daminishrawan</text>
+
+  <!-- Separator before buttons -->
+  <line x1="365" y1="486" x2="835" y2="486" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Buttons -->
+  <!-- Cancel Button -->
+  <rect x="480" y="498" width="90" height="36" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="506" y="520" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#475569">Cancel</text>
+
+  <!-- Update Details Button -->
+  <rect x="585" y="498" width="155" height="36" rx="8" fill="#4F46E5"/>
+  <!-- Save Icon inside -->
+  <rect x="600" y="509" width="10" height="12" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  <path d="M605 515 V519" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="618" y="520" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">Update Details</text>
+</svg>

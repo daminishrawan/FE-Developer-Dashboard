@@ -8,23 +8,23 @@ An elegant, high-perf React-based Developer Management System coupled with a pro
 To prepare for your interview, match your recorded screenshots to the following filenames and place them in your directory at `docs/screenshots/`. In this document, they are fully captioned and mapped to design/architectural highlights so you can easily reference them.
 
 ### 1. Dashboard Overview
-![Dashboard Overview](docs/screenshots/dashboard_overview.png)
+![Dashboard Overview](docs/screenshots/dashboard_overview.svg)
 * **What it demonstrates:** The primary cockpit view displaying the dynamic user table panel, user metric summaries, search & multi-select filtration controls, and responsive layout spacing.
 
 ### 2. Live Profile Searching & Filtration
-![Live Searching and Filtration](docs/screenshots/search_filter.png)
+![Live Searching and Filtration](docs/screenshots/search_filter.svg)
 * **What it demonstrates:** Server-side compatible, instant frontend searching. Matching tokens against Name/Email/Mobile. The UI isolates targeted listings matching your query (e.g., "damin" for Damini Shrawan) smoothly with animated transitions.
 
 ### 3. Custom "Edit Developer Profile" Modal
-![Edit Developer Profile](docs/screenshots/edit_modal.png)
+![Edit Developer Profile](docs/screenshots/edit_modal.svg)
 * **What it demonstrates:** High-fidelity form modal containing contextual validation constraints. Fully accommodates name fields, emails, mobile regex, designated roles (Fullstack, Backend, iOS, QA), active/inactive status badges, developer bios, and GitHub handles.
 
 ### 4. Direct Delete Handshake Workflow
-![Direct Delete Workflow](docs/screenshots/delete_workflow.png)
+![Direct Delete Workflow](docs/screenshots/delete_workflow.svg)
 * **What it demonstrates:** Inline UX safety patterns. Instead of popping intrusive system alerts, the action triggers an elegant, direct "Delete? Confirm / Cancel" inline confirm panel to guarantee seamless user actions.
 
 ### 5. Categorized Badging (Blocked / Filtered Status)
-![Categorized Badging](docs/screenshots/blocked_users.png)
+![Categorized Badging](docs/screenshots/blocked_users.svg)
 * **What it demonstrates:** Complex state filtering in action (e.g., status filters set to "BLOCKED" showing Chloe Gallagher). This highlights structural responsive tables adapting to empty fields or specific status contexts.
 
 ---
